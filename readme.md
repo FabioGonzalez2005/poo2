@@ -13,7 +13,7 @@ Permite reutilizar código al poder heredar atributos y comportamientos de una c
 ### Polimorfismo
 Permite crear múltiples objetos a partir de una misma pieza flexible de código.
 
-![](https://aprendepython.es/_images/oop.jpg)
+![Apuntes de POO](https://aprendepython.es/_images/oop.jpg)
 
 ## Apuntes de Markdown
 https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
