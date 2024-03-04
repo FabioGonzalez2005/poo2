@@ -1,9 +1,5 @@
-## Apuntes de Markdown
-https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-### Diagram Class
-https://mermaid.js.org/syntax/classDiagram.html
-
+# Apuntes de Programación Orientada a Objetos
+https://aprendepython.es/core/modularity/oop/
 ## Beneficios de la POO
 ### Encapsulamiento
 Permite empaquetar el código dentro de una unidad (objeto) donde se puede determinar el ámbito de actuación.
@@ -18,4 +14,12 @@ Permite reutilizar código al poder heredar atributos y comportamientos de una c
 Permite crear múltiples objetos a partir de una misma pieza flexible de código.
 
 ![](https://aprendepython.es/_images/oop.jpg)
+
+## Apuntes de Markdown
+https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+### Diagram Class
+https://mermaid.js.org/syntax/classDiagram.html
+
+
 
