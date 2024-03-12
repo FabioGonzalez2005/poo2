@@ -23,3 +23,6 @@ https://mermaid.js.org/syntax/classDiagram.html
 
 
 
+Tipos de parámetros
+Orientación a objetos
+Atributo/Método
