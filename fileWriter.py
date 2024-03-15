@@ -1,14 +1,15 @@
 class fileWriter:
     def __init__(self, fileName:str)->None:
         self.fileName = fileName
+        self.i = open(self.fileName, "w+", "r")
 
     def write(self, mensaje:str)->str:
-        with open(self.fileName, 'w') as file:
-            file.write(mensaje)
+        self.i.write(mensaje)
         
     def read(self)->str:
-        with open(self.fileName, 'r') as file:
-            return file.read()
+        self.i.readlines()
+
+    def close(self)->str:
 
 if __main__ == "__main__":
     main()
