@@ -1,4 +1,4 @@
-class fileWriter:
+class FileWriter:
     def __init__(self, fileName:str)->None:
         self.fileName = fileName
         self.i = open(self.fileName, "w+", "r")
@@ -7,9 +7,19 @@ class fileWriter:
         self.i.write(mensaje)
         
     def read(self)->str:
-        self.i.readlines()
+        return self.i.readlines()
 
     def close(self)->str:
+        self.i.close()
 
-if __main__ == "__main__":
+def main():
+    prueba = FileWriter("fileWriter.txt")
+    prueba.write("Hola")
+    prueba.close()
+
+    prueba = FileWriter("fileWriter.txt")
+    prueba.read()
+    prueba.close()
+
+if __name__ == "__main__":
     main()
