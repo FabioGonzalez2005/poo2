@@ -1,6 +1,6 @@
 class Writer:
-    def __init__(self, file:str)->None:
-        self.file = file
+    def __init__(self, fileName:str)->None:
+        self.fileName = fileName
 
     def write(self, mensaje:str)->str:
 
