@@ -6,9 +6,9 @@ def myDiv(id:str, *clas:str, content:str)->str:
         resultado += 'class = "'
 
         for e in clas:
-            resultado += e + ','
+            resultado += e + ' '
 
-        resultado += '\b\b"'
+        resultado += '\b"'
 
     resultado += '>' + content + '</div>'
 
