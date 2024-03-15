@@ -32,7 +32,7 @@ tipicaFuncion(ospar = 6, unpar = 3)
 ### Ejercicio 3
 def myDiv(id:str, *clas:str, content:str)->str:
     resultado = ''
-    resultado += '<div id="' + id + '" '
+    resultado += '<div id="' + id + '"
 
     if len (clas) != 0:
         resultado += 'class = "'
