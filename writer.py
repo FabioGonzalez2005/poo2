@@ -3,10 +3,12 @@ class Writer:
         self.fileName = fileName
 
     def write(self, mensaje:str)->str:
-
+        with open(self.fileName, 'w') as file:
+            file.write(mensaje)
         
     def read(self)->str:
-        pass
+        with open(self.fileName, 'r') as file:
+            return file.read()
 
 if __main__ == "__main__":
     main()
